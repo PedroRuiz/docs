@@ -1,7 +1,7 @@
 
 <li class="nav-item <?= isset($docsModuleMenuOpen) && $docsModuleMenuOpen === true ? 'menu-open' : null ?>">
   <a href="#" class="nav-link <?= isset($docsModuleMenuOpen) && $docsModuleMenuOpen === true ? 'active' : null ?>">
-    <i class="fas fa-file"></i>
+  <i class="nav-icon fas fa-file"></i>
     <p>
       <?= lang('docsModule.moduleName') ?>
       <i class="right fas fa-angle-left"></i>
