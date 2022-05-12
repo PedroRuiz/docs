@@ -9,6 +9,13 @@ Being a module, everything is already preconfigured and its installation within 
 
 ## How to install?
 - It necessarily has to be previously installed **Modular**.
+- Edit .env and declare this module as shown in the example, other modules will be declared the same
+```php
+#--------------------------------------------------------------------
+# INSTALLED MODULES
+#--------------------------------------------------------------------
+modules = 'main|Docs'
+```
 - Edit app/Config/autoload.php and incluye the namespaces like is shown here:
 ```php
 /**

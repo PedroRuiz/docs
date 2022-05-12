@@ -9,6 +9,13 @@ Al ser un módulo, ya está todo preconfigurado y su instlalación dentro de **M
 
 ## ¿Cómo se instala?
 - Forzosamente tiene que ser instalado previamente **Modular**.
+- Edita .env y declara este módulo como se muestra en el ejemplo, otros módulos serán declarados igual
+```php
+#--------------------------------------------------------------------
+# INSTALLED MODULES
+#--------------------------------------------------------------------
+modules = 'main|Docs'
+```
 - Edita app/Config/autoload.php e incluye el espacio de nombres así:
 ```php
 /**
